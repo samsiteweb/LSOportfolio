@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { Typography, Grid } from '@material-ui/core';
-import CustomBtn from '../customBtn/customBtn.component';
-import ImageAvatars from '../avatar/avatar.component'
+import CustomBtn from '../../component/customBtn/customBtn.component';
+import ImageAvatars from '../../component/avatar/avatar.component'
 
 import './banner.styles.scss'
 // import '../../../public/assets/imgs/sam.jpg'
@@ -14,7 +14,7 @@ return (
     <div className="banner-background"  >
         <Grid  container direction='column' alignContent="center" style={{paddingBottom: '40px'}}>
             <Grid item style={{paddingTop: '40px'}}>
-        <ImageAvatars classname='bigAvatar' src="assets/imgs/sam.jpg"  alt='my picture' />
+        <ImageAvatars classname='bigAvatar' src="asset/img/sam.jpg"  alt='my picture' />
         </Grid>
             <Grid item style={{ margin: '10px 350px'}} >
                <Typography variant='h1' align='center' 

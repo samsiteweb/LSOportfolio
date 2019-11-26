@@ -1,18 +1,18 @@
 import React from 'react';
-import Skills from './component/skills/skills.component'
-
+import SkillsSection from './sections/skills-section/skills-section.component'
 // import Header from './component/header/header.component';
 
 import './App.css';
-import Banner from './component/banner/banner.component';
+import Banner from './sections/banner/banner.component';
+import AboutSection from './sections/about-section/about-section.component';
 
 function App() {
   
-  return (<div>
-    {/* <Header /> */}
-    
+  return (<div>  
     <Banner/>
-    <Skills/>
+    <AboutSection />
+    <SkillsSection/>
+    
   </div>);
 }
 
